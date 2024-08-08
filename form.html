@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="icon" href="form.png" sizes="16*16">
+</head>
+<body>
+    <fieldset >
+        <legend>Registration_Form</legend>
+        <center>
+    <form action="">
+        <label for="">FirstName:</label><br>
+        <input type="text" placeholder="Firstname" title="Disha" required pattern="[A-Z]{1}[a-z]*" autocomplete="off">
+        <br><br>
+        <label for="">LastName:</label><br>
+        <input type="text" placeholder="Lastname"  title="Gupta" required pattern="[A-Z]{1}[a-z]*" autocomplete="off">
+        <br><br>
+        <label for="">Gender  :</label>
+        <input type="radio" name="Gender" value="male">
+        <label for="">Male</label>
+        <input type="radio" name="Gender" value="female">
+        <label for="">Female</label>
+        <input type="submit" value="SUBMIT">
+        <br>
+        <br>
+        <label>DOB:</label>
+        <input type="date">
+        <br><br>
+        <label>Time:</label>
+        <input type="time">
+        <br><br>
+        <label>Email_Id  :</label><br>
+        <input type="text"  placeholder="Email-Id">
+        <br><br>
+        <label>Password  :</label><br>
+        <input type="text"  placeholder="Password"  title="eaZ#6mGLA" required pattern="[a-z]{2}[A-Z]{1}[#]{1}{0-9}{1}{a-z}{1}{A-Z}*" autocomplete="off">
+        <br><br>
+        <label>Fees Range :</label>
+        <input type="range">
+        <br><br>
+        <Label for="">Branches :</Label>
+        <br>
+        <input type="checkbox" name="branches" value="CS">
+        <label for="">Computer Science</label>
+        <input type="checkbox"  name="branches" value="Mechanical">
+        <label for="">Mechanical</label>
+        <input type="checkbox"  name="branches" value="Elect">
+        <label for="">Electronics</label>
+        <input type="checkbox"  name="branches" value="civil">
+        <label for="">Civil</label>
+        <button>SUBMIT</button>
+        <br><br>
+        <label>Select Your Collage:</label>
+        <select name="" id="">
+            <option value="">----STATE----</option>
+            <option value="">Uttar Pradesh</option>
+            <option value="">Mahrastra</option>
+            <option value="">Bihar</option>
+            <option value="">Telangana</option>
+            <option value="">Andhra Pradesh</option>
+        </select>
+        <select name="" id="">
+            <option value="">----CITY----</option>
+            <option value="">Mathura</option>
+            <option value="">PUNE</option>
+            <option value="">Patna</option>
+            <option value="">Banglore</option>
+            <option value="">Hyderabad</option>
+        </select>
+        <select name="" id="">
+            <option value="">----Collage----</option>
+            <option value="">GLA</option>
+            <option value="">SavitriBai Phule</option>
+            <option value="">Bhimrao Ambedkar University</option>
+            <option value="">Banglore University</option>
+            <option value="">University of Hyderabad</option>
+        </select>
+        <br>
+        <br>
+        <label>Passport Size Photo:</label>
+        <input type="file">
+        <br><br>
+        <label>Present Date and time </label>
+        <input type="datetime-local">
+        <br><br>
+        <input type="submit" value="LOGIN">
+        <input type="reset" value="RESET">
+    </form>
+    <blockquote>
+</center>
+</fieldset>
+
+    
+</body>
+</html>

@@ -1,0 +1,5 @@
+Make 10 websites with using table tag ,image and many more.
+
+
+User12345 -> [A-Z]{1}[a-z]*[0-9]{5}
+U_1234567 -> [A-Z]{1}[_]{1}[0-9]{7}
